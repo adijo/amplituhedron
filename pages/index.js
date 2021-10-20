@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center space-y-8  max-w-screen-xl">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center space-y-8 max-w-screen-xl mx-10">
         <Link href="https://youtu.be/joeDff7EnAU?t=17">
           <a target="_blank">
             <span className="flex relative">
@@ -44,7 +44,7 @@ export default function Home() {
         </Link>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60 px-6">
+      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60 px-6 mt-6">
         <div className="flex flex-col space-y-2 px-10">
           <div className="justify-center flex text-center">
             <Link href="https://arxiv.org/abs/1312.2007">
