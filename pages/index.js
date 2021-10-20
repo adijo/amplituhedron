@@ -20,7 +20,7 @@ export default function Home() {
               >
                 space time is doomed
               </h1>
-              <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-red-500 opacity-75 right-0 sm:-mr-6"></span>
+              <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-red-500 opacity-75 right-0 top-0 sm:mr-4 md:-mr-6"></span>
             </span>
           </a>
         </Link>
@@ -34,11 +34,11 @@ export default function Home() {
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60">
-        <div className="flex flex-col space-y-2">
-          <div className="justify-center flex">
+        <div className="flex flex-col space-y-2 px-10">
+          <div className="justify-center flex text-center">
             <Link href="https://arxiv.org/abs/1312.2007">
               <a target="_blank">
-                <div className="cursor-pointer flex space-x-2 items-center">
+                <div className="cursor-pointer flex space-x-2 text-center">
                   <ExternalLinkIcon className="h-6 text-gray-200" />
                   <p className="font-inter text-gray-200 ">The Amplituhedron</p>
                 </div>
@@ -46,10 +46,10 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="justify-center flex">
+          <div className="justify-center flex text-center">
             <Link href="https://www.quantamagazine.org/physicists-discover-geometry-underlying-particle-physics-20130917/">
               <a target="_blank">
-                <div className="cursor-pointer flex space-x-2 items-center">
+                <div className="cursor-pointer flex space-x-2 text-center">
                   <ExternalLinkIcon className="h-6 text-gray-200" />
                   <p className="font-inter text-gray-200 break-normal sm:break-all">
                     A Jewel at the Heart of Quantum Physics, Quanta Magazine
