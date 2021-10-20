@@ -15,12 +15,12 @@ export default function Home() {
           <a target="_blank">
             <span className="flex relative">
               <h1
-                className="font-inter tracking-wide text-6xl sm:text-8xl font-extrabold text-transparent bg-clip-text 
+                className="font-inter tracking-wide text-8xl font-extrabold text-transparent bg-clip-text 
         bg-gradient-to-r from-blue-400 via-yellow-300 to-red-500 active:scale-90 transition duration-400 cursor-pointer"
               >
                 space time is doomed
               </h1>
-              <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-red-500 opacity-75 right-0 sm:-mr-6"></span>
+              <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-red-500 opacity-75 right-0 sm:-mr-6"></span>
             </span>
           </a>
         </Link>
