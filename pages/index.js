@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center space-y-8">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center space-y-8  max-w-screen-xl">
         <Link href="https://youtu.be/joeDff7EnAU?t=17">
           <a target="_blank">
             <span className="flex relative">
@@ -22,6 +22,17 @@ export default function Home() {
               </h1>
               <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-red-500 opacity-75 right-0 top-0 sm:mr-4 md:-mr-6"></span>
             </span>
+          </a>
+        </Link>
+
+        <Link href="https://en.wikipedia.org/wiki/Amplituhedron">
+          <a target="_blank">
+            <p className="text-gray-200 text-lg font-inter italic break-normal">
+              Amplituhedron theory challenges the notion that spacetime locality
+              and unitarity are necessary components of a model of particle
+              interactions. Instead, they are treated as properties that emerge
+              from an underlying phenomenon
+            </p>
           </a>
         </Link>
         <Link href="https://en.wikipedia.org/wiki/Nima_Arkani-Hamed">
