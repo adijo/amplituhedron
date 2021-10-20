@@ -26,21 +26,22 @@ export default function Home() {
         </Link>
         <Link href="https://en.wikipedia.org/wiki/Nima_Arkani-Hamed">
           <a target="_blank">
-            <h2 className="font-inter tracking-wide mt-3 text-md sm:text-3xl text-white text-extrabold text-3xl">
+            <h2 className="font-inter tracking-wide mt-3 text-md sm:text-3xl text-white text-extrabold text-3xl hover:shiny-text">
               nima-arkani hamed
             </h2>
           </a>
         </Link>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60">
+      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60 px-6">
         <div className="flex flex-col space-y-2 px-10">
           <div className="justify-center flex text-center">
             <Link href="https://arxiv.org/abs/1312.2007">
               <a target="_blank">
                 <div className="cursor-pointer flex space-x-2 text-center">
-                  <ExternalLinkIcon className="h-6 text-gray-200" />
-                  <p className="font-inter text-gray-200 ">The Amplituhedron</p>
+                  <p className="font-inter text-gray-200 hover:shiny-text">
+                    The Amplituhedron
+                  </p>
                 </div>
               </a>
             </Link>
@@ -50,8 +51,7 @@ export default function Home() {
             <Link href="https://www.quantamagazine.org/physicists-discover-geometry-underlying-particle-physics-20130917/">
               <a target="_blank">
                 <div className="cursor-pointer flex space-x-2 text-center">
-                  <ExternalLinkIcon className="h-6 text-gray-200" />
-                  <p className="font-inter text-gray-200 break-normal sm:break-all">
+                  <p className="font-inter text-gray-200 break-normal sm:break-all hover:shiny-text">
                     A Jewel at the Heart of Quantum Physics, Quanta Magazine
                   </p>
                 </div>
