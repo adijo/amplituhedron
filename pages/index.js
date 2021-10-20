@@ -44,7 +44,7 @@ export default function Home() {
         </Link>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60 px-6 mt-6">
+      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-400 border-opacity-60 px-6 mx-10">
         <div className="flex flex-col space-y-2 px-10">
           <div className="justify-center flex text-center">
             <Link href="https://arxiv.org/abs/1312.2007">
